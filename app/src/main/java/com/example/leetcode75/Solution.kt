@@ -1,6 +1,10 @@
 package com.example.leetcode75
 
 fun main() {
-    val leetCode605 = Problem605()
-    println("can Place Flowers: ${leetCode605.canPlaceFlowers(intArrayOf(1,0,0,0,1), 1)}")
+    val problem345 = Problem345()
+    println("before: A man, a plan, a canal: Panama")
+    val start = System.currentTimeMillis()
+    println("reversed: ${problem345.reverseVowels("A man, a plan, a canal: Panama")}")
+    val end = System.currentTimeMillis()
+    println("Duration: ${end - start}ms")
 }
