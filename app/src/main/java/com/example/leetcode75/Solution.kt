@@ -1,11 +1,11 @@
 package com.example.leetcode75
 
 fun main() {
-    val problem334 = Problem334()
-    val nums = intArrayOf(1,5,0,4,1,3)
+    val problem443 = Problem443()
+    val strArr = charArrayOf('a', 'a', 'b', 'b', 'c', 'c', 'c')
     val start = System.currentTimeMillis()
-    val answers = problem334.increasingTriplet(nums)
-    println("Increasing Triplet Subsequence: $answers")
+    val answers = problem443.compress(strArr)
+    println("String Compression: $answers")
     val end = System.currentTimeMillis()
     println("Duration: ${end - start}ms")
 }
