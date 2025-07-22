@@ -1,11 +1,9 @@
 package com.example.leetcode75
 
 fun main() {
-    val problem283 = Problem283()
-    val nums = intArrayOf(2,1,0,3,12)
+    val problem392 = Problem392()
     val start = System.currentTimeMillis()
-    problem283.moveZeroes(nums)
-    println("Move all 0's: ${nums.toList()}")
+    println("Is Subsequence: ${problem392.isSubsequence(s = "doan tu", t = "doan le tuan tu")}")
     val end = System.currentTimeMillis()
     println("Duration: ${end - start}ms")
 }
