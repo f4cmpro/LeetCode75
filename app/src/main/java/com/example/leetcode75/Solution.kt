@@ -1,10 +1,10 @@
 package com.example.leetcode75
 
 fun main() {
-    val problem643 = Problem643()
-    val nums = intArrayOf(1,12,-5,-6,50,3)
+    val problem1456 = Problem1456()
+    val str = "leetcode"
     val start = System.currentTimeMillis()
-    println("Max Number of K-Sum Pairs: ${problem643.findMaxAverage(nums, 4)}")
+    println("Maximum Number of Vowels in a Substring of Given Length: ${problem1456.maxVowels(str, 3)}")
     val end = System.currentTimeMillis()
     println("Duration: ${end - start}ms")
 }
