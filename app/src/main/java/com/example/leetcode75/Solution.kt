@@ -1,10 +1,10 @@
 package com.example.leetcode75
 
 fun main() {
-    val problem1004 = Problem1004()
-    val nums = intArrayOf(0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1)
+    val problem = Problem1493()
+    val nums = intArrayOf(0,0,0,0)
     val start = System.currentTimeMillis()
-    println("Max Consecutive Ones III: ${problem1004.longestOnes(nums, 3)}")
+    println("Longest Subarray of 1's After Deleting One Element: ${problem.longestSubarray(nums)}")
     val end = System.currentTimeMillis()
     println("Duration: ${end - start}ms")
 }
