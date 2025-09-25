@@ -1,21 +1,11 @@
 package com.example.leetcode75
 
 fun main() {
-    val problem = Problem735()
-    val asteroids = intArrayOf(1,-2,-2,-2)
+    val problem = Problem394()
+    val s = "2[abc]3[cd]ef"
     val start = System.currentTimeMillis()
-    val answers = problem.asteroidCollisionCopilot(asteroids)
+    val answers = problem.decodeString(s)
     val end = System.currentTimeMillis()
-    print("Asteroid Collision: [")
-    if (answers.isEmpty()) {
-        println("]")
-    }
-    for (i in answers.indices) {
-        if (i == answers.lastIndex) {
-            println("${answers[i]}]")
-        } else {
-            print("${answers[i]}, ")
-        }
-    }
+    println("Decode String: $answers")
     println("Duration: ${end - start}ms")
 }
